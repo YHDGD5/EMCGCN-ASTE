@@ -1,0 +1,799 @@
+{
+  "function_graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {
+      "total_functions": 38,
+      "total_calls": 54080,
+      "cycles_count": 0,
+      "training_loops_count": 0,
+      "data_processing_loops_count": 0,
+      "recursive_calls_count": 0,
+      "other_loops_count": 0
+    },
+    "nodes": [
+      {
+        "file": "data.py",
+        "lineno": 1,
+        "timestamp": 0.5504570007324219,
+        "module": "data",
+        "type": "function",
+        "execution_time": 0.5129594802856445,
+        "return_timestamp": 1.0634164810180664,
+        "id": "data.<module>"
+      },
+      {
+        "file": "data.py",
+        "lineno": 60,
+        "timestamp": 1.0632290840148926,
+        "module": "data",
+        "type": "function",
+        "execution_time": 9.059906005859375e-05,
+        "return_timestamp": 1.0633196830749512,
+        "id": "data.Instance"
+      },
+      {
+        "file": "data.py",
+        "lineno": 261,
+        "timestamp": 1.0633611679077148,
+        "module": "data",
+        "type": "function",
+        "execution_time": 3.600120544433594e-05,
+        "return_timestamp": 1.0633971691131592,
+        "id": "data.DataIterator"
+      },
+      {
+        "file": "model.py",
+        "lineno": 1,
+        "timestamp": 1.0642423629760742,
+        "module": "model",
+        "type": "function",
+        "execution_time": 0.0003418922424316406,
+        "return_timestamp": 1.0645842552185059,
+        "id": "model.<module>"
+      },
+      {
+        "file": "model.py",
+        "lineno": 8,
+        "timestamp": 1.064302682876587,
+        "module": "model",
+        "type": "function",
+        "execution_time": 3.5762786865234375e-05,
+        "return_timestamp": 1.0643384456634521,
+        "id": "model.LayerNorm"
+      },
+      {
+        "file": "model.py",
+        "lineno": 23,
+        "timestamp": 1.0643763542175293,
+        "module": "model",
+        "type": "function",
+        "execution_time": 3.218650817871094e-05,
+        "return_timestamp": 1.064408540725708,
+        "id": "model.RefiningStrategy"
+      },
+      {
+        "file": "model.py",
+        "lineno": 47,
+        "timestamp": 1.064432144165039,
+        "module": "model",
+        "type": "function",
+        "execution_time": 3.147125244140625e-05,
+        "return_timestamp": 1.0644636154174805,
+        "id": "model.GraphConvLayer"
+      },
+      {
+        "file": "model.py",
+        "lineno": 89,
+        "timestamp": 1.064485788345337,
+        "module": "model",
+        "type": "function",
+        "execution_time": 2.9802322387695312e-05,
+        "return_timestamp": 1.0645155906677246,
+        "id": "model.Biaffine"
+      },
+      {
+        "file": "model.py",
+        "lineno": 123,
+        "timestamp": 1.0645363330841064,
+        "module": "model",
+        "type": "function",
+        "execution_time": 3.0040740966796875e-05,
+        "return_timestamp": 1.0645663738250732,
+        "id": "model.EMCGCN"
+      },
+      {
+        "file": "utils.py",
+        "lineno": 1,
+        "timestamp": 1.0654425621032715,
+        "module": "utils",
+        "type": "function",
+        "execution_time": 0.0001385211944580078,
+        "return_timestamp": 1.0655810832977295,
+        "id": "utils.<module>"
+      },
+      {
+        "file": "utils.py",
+        "lineno": 54,
+        "timestamp": 1.0655100345611572,
+        "module": "utils",
+        "type": "function",
+        "execution_time": 4.2438507080078125e-05,
+        "return_timestamp": 1.0655524730682373,
+        "id": "utils.Metric"
+      },
+      {
+        "file": "prepare_vocab.py",
+        "lineno": 3,
+        "timestamp": 1.066429615020752,
+        "module": "prepare_vocab",
+        "type": "function",
+        "execution_time": 0.000148773193359375,
+        "return_timestamp": 1.0665783882141113,
+        "id": "prepare_vocab.<module>"
+      },
+      {
+        "file": "prepare_vocab.py",
+        "lineno": 13,
+        "timestamp": 1.066504955291748,
+        "module": "prepare_vocab",
+        "type": "function",
+        "execution_time": 4.00543212890625e-05,
+        "return_timestamp": 1.066545009613037,
+        "id": "prepare_vocab.VocabHelp"
+      },
+      {
+        "file": "prepare_vocab.py",
+        "lineno": 50,
+        "timestamp": 1.1293227672576904,
+        "module": "prepare_vocab",
+        "type": "function",
+        "execution_time": 3668.0611901283264,
+        "return_timestamp": 3669.190512895584,
+        "id": "prepare_vocab.load_vocab"
+      },
+      {
+        "file": "prepare_vocab.py",
+        "lineno": 39,
+        "timestamp": 1.1300842761993408,
+        "module": "prepare_vocab",
+        "type": "function",
+        "signature": "(self)",
+        "execution_time": 0.0001728534698486328,
+        "return_timestamp": 1.1302571296691895,
+        "id": "prepare_vocab.VocabHelp.__len__"
+      },
+      {
+        "file": "data.py",
+        "lineno": 253,
+        "timestamp": 1.1302757263183594,
+        "module": "data",
+        "type": "function",
+        "signature": "(sentence_packs, post_vocab, deprel_vocab, postag_vocab, synpost_vocab, args)",
+        "execution_time": 3705.373298406601,
+        "return_timestamp": 3706.5035741329193,
+        "id": "data.load_data_instances"
+      },
+      {
+        "file": "data.py",
+        "lineno": 61,
+        "timestamp": 7.265599012374878,
+        "module": "data",
+        "type": "function",
+        "signature": "(self, tokenizer, sentence_pack, post_vocab, deprel_vocab, postag_vocab, synpost_vocab, args)",
+        "execution_time": 3699.2378962039948,
+        "return_timestamp": 3706.5034952163696,
+        "loop_context": {
+          "start_node": "data.Instance.__init__",
+          "iterations": 2065,
+          "max_depth": 1,
+          "nodes_count": 1,
+          "nodes": [
+            "data.Instance.__init__"
+          ],
+          "duration": 0.15606093406677246
+        },
+        "id": "data.Instance.__init__"
+      },
+      {
+        "file": "data.py",
+        "lineno": 19,
+        "timestamp": 7.297109365463257,
+        "module": "data",
+        "type": "function",
+        "signature": "(tags)",
+        "execution_time": 3699.1047801971436,
+        "return_timestamp": 3706.401889562607,
+        "loop_context": {
+          "start_node": "data.get_spans",
+          "iterations": 7815,
+          "max_depth": 1,
+          "nodes_count": 1,
+          "nodes": [
+            "data.get_spans"
+          ],
+          "duration": 9.036064147949219e-05
+        },
+        "id": "data.get_spans"
+      },
+      {
+        "file": "data.py",
+        "lineno": 211,
+        "timestamp": 7.314646005630493,
+        "module": "data",
+        "type": "function",
+        "execution_time": 3699.161892414093,
+        "return_timestamp": 3706.4765384197235,
+        "loop_context": {
+          "start_node": "data.Instance.<listcomp>",
+          "iterations": 4133,
+          "max_depth": 1,
+          "nodes_count": 1,
+          "nodes": [
+            "data.Instance.<listcomp>"
+          ],
+          "duration": 0.0001227855682373047
+        },
+        "id": "data.Instance.<listcomp>"
+      },
+      {
+        "file": "data.py",
+        "lineno": 262,
+        "timestamp": 107.73980760574341,
+        "module": "data",
+        "type": "function",
+        "signature": "(self, instances, args)",
+        "execution_time": 3598.7651917934418,
+        "return_timestamp": 3706.504999399185,
+        "id": "data.DataIterator.__init__"
+      },
+      {
+        "file": "model.py",
+        "lineno": 124,
+        "timestamp": 107.74007868766785,
+        "module": "model",
+        "type": "function",
+        "signature": "(self, args)",
+        "execution_time": 20.374665021896362,
+        "return_timestamp": 128.1147437095642,
+        "id": "model.EMCGCN.__init__"
+      },
+      {
+        "file": "model.py",
+        "lineno": 90,
+        "timestamp": 128.10267186164856,
+        "module": "model",
+        "type": "function",
+        "signature": "(self, args, in1_features, in2_features, out_features, bias=(True, True))",
+        "execution_time": 0.004992485046386719,
+        "return_timestamp": 128.10766434669495,
+        "id": "model.Biaffine.__init__"
+      },
+      {
+        "file": "model.py",
+        "lineno": 11,
+        "timestamp": 128.1121485233307,
+        "module": "model",
+        "type": "function",
+        "signature": "(self, features, eps=1e-06)",
+        "execution_time": 0.0010960102081298828,
+        "return_timestamp": 128.11324453353882,
+        "id": "model.LayerNorm.__init__"
+      },
+      {
+        "file": "model.py",
+        "lineno": 50,
+        "timestamp": 128.11272764205933,
+        "module": "model",
+        "type": "function",
+        "signature": "(self, device, gcn_dim, edge_dim, dep_embed_dim, pooling='avg')",
+        "execution_time": 0.0019609928131103516,
+        "return_timestamp": 128.11468863487244,
+        "id": "model.GraphConvLayer.__init__"
+      },
+      {
+        "file": "model.py",
+        "lineno": 24,
+        "timestamp": 128.11393761634827,
+        "module": "model",
+        "type": "function",
+        "signature": "(self, hidden_dim, edge_dim, dim_e, dropout_ratio=0.5)",
+        "execution_time": 0.0007081031799316406,
+        "return_timestamp": 128.1146457195282,
+        "id": "model.RefiningStrategy.__init__"
+      },
+      {
+        "file": "data.py",
+        "lineno": 267,
+        "timestamp": 132.7219648361206,
+        "module": "data",
+        "type": "function",
+        "signature": "(self, index)",
+        "execution_time": 3613.538161277771,
+        "return_timestamp": 3746.2601261138916,
+        "id": "data.DataIterator.get_batch"
+      },
+      {
+        "file": "model.py",
+        "lineno": 150,
+        "timestamp": 132.85279369354248,
+        "module": "model",
+        "type": "function",
+        "signature": "(self, tokens, masks, word_pair_position, word_pair_deprel, word_pair_pos, word_pair_synpost)",
+        "execution_time": 3614.3500497341156,
+        "return_timestamp": 3747.202843427658,
+        "id": "model.EMCGCN.forward"
+      },
+      {
+        "file": "model.py",
+        "lineno": 103,
+        "timestamp": 133.60663485527039,
+        "module": "model",
+        "type": "function",
+        "signature": "(self, input1, input2)",
+        "execution_time": 3613.1572852134705,
+        "return_timestamp": 3746.763920068741,
+        "loop_context": {
+          "start_node": "model.Biaffine.forward",
+          "iterations": 1028,
+          "max_depth": 1,
+          "nodes_count": 1,
+          "nodes": [
+            "model.Biaffine.forward"
+          ],
+          "duration": 0.4843919277191162
+        },
+        "id": "model.Biaffine.forward"
+      },
+      {
+        "file": "model.py",
+        "lineno": 61,
+        "timestamp": 134.2060902118683,
+        "module": "model",
+        "type": "function",
+        "signature": "(self, weight_prob_softmax, weight_adj, gcn_inputs, self_loop)",
+        "execution_time": 3612.883860349655,
+        "return_timestamp": 3747.0899505615234,
+        "loop_context": {
+          "start_node": "model.GraphConvLayer.forward",
+          "iterations": 1028,
+          "max_depth": 1,
+          "nodes_count": 1,
+          "nodes": [
+            "model.GraphConvLayer.forward"
+          ],
+          "duration": 0.33008742332458496
+        },
+        "id": "model.GraphConvLayer.forward"
+      },
+      {
+        "file": "model.py",
+        "lineno": 17,
+        "timestamp": 134.20915985107422,
+        "module": "model",
+        "type": "function",
+        "signature": "(self, x)",
+        "execution_time": 3612.66410779953,
+        "return_timestamp": 3746.8732676506042,
+        "loop_context": {
+          "start_node": "model.LayerNorm.forward",
+          "iterations": 1028,
+          "max_depth": 1,
+          "nodes_count": 1,
+          "nodes": [
+            "model.LayerNorm.forward"
+          ],
+          "duration": 0.03561973571777344
+        },
+        "id": "model.LayerNorm.forward"
+      },
+      {
+        "file": "model.py",
+        "lineno": 33,
+        "timestamp": 134.2689869403839,
+        "module": "model",
+        "type": "function",
+        "signature": "(self, edge, node1, node2)",
+        "execution_time": 3612.6403872966766,
+        "return_timestamp": 3746.9093742370605,
+        "loop_context": {
+          "start_node": "model.RefiningStrategy.forward",
+          "iterations": 1028,
+          "max_depth": 1,
+          "nodes_count": 1,
+          "nodes": [
+            "model.RefiningStrategy.forward"
+          ],
+          "duration": 0.1808760166168213
+        },
+        "id": "model.RefiningStrategy.forward"
+      },
+      {
+        "file": "utils.py",
+        "lineno": 55,
+        "timestamp": 451.358690738678,
+        "module": "utils",
+        "type": "function",
+        "signature": "(self, args, predictions, goldens, bert_lengths, sen_lengths, tokens_ranges, ignore_index=-1)",
+        "execution_time": 3296.5803027153015,
+        "return_timestamp": 3747.9389934539795,
+        "id": "utils.Metric.__init__"
+      },
+      {
+        "file": "utils.py",
+        "lineno": 169,
+        "timestamp": 451.3589336872101,
+        "module": "utils",
+        "type": "function",
+        "signature": "(self)",
+        "execution_time": 3296.9658386707306,
+        "return_timestamp": 3748.3247723579407,
+        "id": "utils.Metric.score_uniontags"
+      },
+      {
+        "file": "utils.py",
+        "lineno": 6,
+        "timestamp": 451.35900354385376,
+        "module": "utils",
+        "type": "function",
+        "signature": "(tags, length, token_range, ignore_index=-1)",
+        "execution_time": 3297.1051712036133,
+        "return_timestamp": 3748.464174747467,
+        "loop_context": {
+          "start_node": "utils.get_aspects",
+          "iterations": 617,
+          "max_depth": 1,
+          "nodes_count": 1,
+          "nodes": [
+            "utils.get_aspects"
+          ],
+          "duration": 7.62939453125e-05
+        },
+        "id": "utils.get_aspects"
+      },
+      {
+        "file": "utils.py",
+        "lineno": 30,
+        "timestamp": 451.35920786857605,
+        "module": "utils",
+        "type": "function",
+        "signature": "(tags, length, token_range, ignore_index=-1)",
+        "execution_time": 3297.2447431087494,
+        "return_timestamp": 3748.6039509773254,
+        "loop_context": {
+          "start_node": "utils.get_opinions",
+          "iterations": 617,
+          "max_depth": 1,
+          "nodes_count": 1,
+          "nodes": [
+            "utils.get_opinions"
+          ],
+          "duration": 6.937980651855469e-05
+        },
+        "id": "utils.get_opinions"
+      },
+      {
+        "file": "utils.py",
+        "lineno": 101,
+        "timestamp": 451.3594346046448,
+        "module": "utils",
+        "type": "function",
+        "signature": "(self, tags, aspect_spans, opinion_spans, token_ranges)",
+        "execution_time": 3296.9652259349823,
+        "return_timestamp": 3748.324660539627,
+        "loop_context": {
+          "start_node": "utils.Metric.find_triplet",
+          "iterations": 7181,
+          "max_depth": 1,
+          "nodes_count": 1,
+          "nodes": [
+            "utils.Metric.find_triplet"
+          ],
+          "duration": 0.00020956993103027344
+        },
+        "id": "utils.Metric.find_triplet"
+      },
+      {
+        "file": "utils.py",
+        "lineno": 131,
+        "timestamp": 451.59908294677734,
+        "module": "utils",
+        "type": "function",
+        "signature": "(self)",
+        "execution_time": 3296.865219116211,
+        "return_timestamp": 3748.4643020629883,
+        "id": "utils.Metric.score_aspect"
+      },
+      {
+        "file": "utils.py",
+        "lineno": 150,
+        "timestamp": 451.6840434074402,
+        "module": "utils",
+        "type": "function",
+        "signature": "(self)",
+        "execution_time": 3296.9199888706207,
+        "return_timestamp": 3748.604032278061,
+        "id": "utils.Metric.score_opinion"
+      }
+    ],
+    "links": [
+      {
+        "count": 1,
+        "first_call": 1.0632290840148926,
+        "last_call": 1.0632290840148926,
+        "is_loop": false,
+        "source": "data.<module>",
+        "target": "data.Instance"
+      },
+      {
+        "count": 1,
+        "first_call": 1.0633611679077148,
+        "last_call": 1.0633611679077148,
+        "is_loop": false,
+        "source": "data.<module>",
+        "target": "data.DataIterator"
+      },
+      {
+        "count": 1,
+        "first_call": 1.064302682876587,
+        "last_call": 1.064302682876587,
+        "is_loop": false,
+        "source": "model.<module>",
+        "target": "model.LayerNorm"
+      },
+      {
+        "count": 1,
+        "first_call": 1.0643763542175293,
+        "last_call": 1.0643763542175293,
+        "is_loop": false,
+        "source": "model.<module>",
+        "target": "model.RefiningStrategy"
+      },
+      {
+        "count": 1,
+        "first_call": 1.064432144165039,
+        "last_call": 1.064432144165039,
+        "is_loop": false,
+        "source": "model.<module>",
+        "target": "model.GraphConvLayer"
+      },
+      {
+        "count": 1,
+        "first_call": 1.064485788345337,
+        "last_call": 1.064485788345337,
+        "is_loop": false,
+        "source": "model.<module>",
+        "target": "model.Biaffine"
+      },
+      {
+        "count": 1,
+        "first_call": 1.0645363330841064,
+        "last_call": 1.0645363330841064,
+        "is_loop": false,
+        "source": "model.<module>",
+        "target": "model.EMCGCN"
+      },
+      {
+        "count": 1,
+        "first_call": 1.0655100345611572,
+        "last_call": 1.0655100345611572,
+        "is_loop": false,
+        "source": "utils.<module>",
+        "target": "utils.Metric"
+      },
+      {
+        "count": 1,
+        "first_call": 1.066504955291748,
+        "last_call": 1.066504955291748,
+        "is_loop": false,
+        "source": "prepare_vocab.<module>",
+        "target": "prepare_vocab.VocabHelp"
+      },
+      {
+        "count": 2068,
+        "first_call": 7.265599012374878,
+        "last_call": 3706.3474702835083,
+        "is_loop": true,
+        "source": "data.load_data_instances",
+        "target": "data.Instance.__init__"
+      },
+      {
+        "count": 7818,
+        "first_call": 7.297109365463257,
+        "last_call": 3706.401799917221,
+        "is_loop": true,
+        "source": "data.Instance.__init__",
+        "target": "data.get_spans"
+      },
+      {
+        "count": 4136,
+        "first_call": 7.314646005630493,
+        "last_call": 3706.476484775543,
+        "is_loop": true,
+        "source": "data.Instance.__init__",
+        "target": "data.Instance.<listcomp>"
+      },
+      {
+        "count": 1,
+        "first_call": 128.10267186164856,
+        "last_call": 128.10267186164856,
+        "is_loop": false,
+        "source": "model.EMCGCN.__init__",
+        "target": "model.Biaffine.__init__"
+      },
+      {
+        "count": 1,
+        "first_call": 128.1121485233307,
+        "last_call": 128.1121485233307,
+        "is_loop": false,
+        "source": "model.EMCGCN.__init__",
+        "target": "model.LayerNorm.__init__"
+      },
+      {
+        "count": 1,
+        "first_call": 128.11272764205933,
+        "last_call": 128.11272764205933,
+        "is_loop": false,
+        "source": "model.EMCGCN.__init__",
+        "target": "model.GraphConvLayer.__init__"
+      },
+      {
+        "count": 1,
+        "first_call": 128.11298942565918,
+        "last_call": 128.11298942565918,
+        "is_loop": false,
+        "source": "model.GraphConvLayer.__init__",
+        "target": "model.LayerNorm.__init__"
+      },
+      {
+        "count": 1,
+        "first_call": 128.11393761634827,
+        "last_call": 128.11393761634827,
+        "is_loop": false,
+        "source": "model.GraphConvLayer.__init__",
+        "target": "model.RefiningStrategy.__init__"
+      },
+      {
+        "count": 1031,
+        "first_call": 133.60663485527039,
+        "last_call": 3746.3854138851166,
+        "is_loop": true,
+        "source": "model.EMCGCN.forward",
+        "target": "model.Biaffine.forward"
+      },
+      {
+        "count": 1031,
+        "first_call": 134.2060902118683,
+        "last_call": 3746.8726105690002,
+        "is_loop": true,
+        "source": "model.EMCGCN.forward",
+        "target": "model.GraphConvLayer.forward"
+      },
+      {
+        "count": 1031,
+        "first_call": 134.20915985107422,
+        "last_call": 3746.8730478286743,
+        "is_loop": true,
+        "source": "model.GraphConvLayer.forward",
+        "target": "model.LayerNorm.forward"
+      },
+      {
+        "count": 1031,
+        "first_call": 134.2689869403839,
+        "last_call": 3746.9089567661285,
+        "is_loop": true,
+        "source": "model.GraphConvLayer.forward",
+        "target": "model.RefiningStrategy.forward"
+      },
+      {
+        "count": 7184,
+        "first_call": 451.35900354385376,
+        "last_call": 3748.324065923691,
+        "is_loop": true,
+        "source": "utils.Metric.score_uniontags",
+        "target": "utils.get_aspects"
+      },
+      {
+        "count": 7184,
+        "first_call": 451.35920786857605,
+        "last_call": 3748.324255466461,
+        "is_loop": true,
+        "source": "utils.Metric.score_uniontags",
+        "target": "utils.get_opinions"
+      },
+      {
+        "count": 7184,
+        "first_call": 451.3594346046448,
+        "last_call": 3748.324453830719,
+        "is_loop": true,
+        "source": "utils.Metric.score_uniontags",
+        "target": "utils.Metric.find_triplet"
+      },
+      {
+        "count": 7184,
+        "first_call": 451.59921288490295,
+        "last_call": 3748.464004278183,
+        "is_loop": true,
+        "source": "utils.Metric.score_aspect",
+        "target": "utils.get_aspects"
+      },
+      {
+        "count": 7184,
+        "first_call": 451.68417263031006,
+        "last_call": 3748.6037769317627,
+        "is_loop": true,
+        "source": "utils.Metric.score_opinion",
+        "target": "utils.get_opinions"
+      }
+    ]
+  },
+  "statistics": {
+    "total_functions": 38,
+    "total_calls": 54080,
+    "execution_time": 3748.656826019287
+  },
+  "config": {
+    "weights": {
+      "structure_similarity": 0.4,
+      "path_coverage": 0.3,
+      "loop_similarity": 0.2,
+      "module_similarity": 0.1,
+      "parameter_similarity": 0.0
+    },
+    "loop_handling": {
+      "ignore_iteration_count": true,
+      "max_loop_samples": 5,
+      "normalize_loops": true,
+      "loop_detection_threshold": 3
+    },
+    "path_importance": {
+      "use_frequency_weighting": true,
+      "critical_path_bonus": 1.5,
+      "min_path_frequency": 2
+    },
+    "ignorable_patterns": [
+      ".*\\.train_loop\\(\\d+\\)",
+      ".*\\.epoch = \\d+",
+      ".*\\.batch_size = \\d+"
+    ],
+    "node_attributes": {
+      "compare_execution_time": false,
+      "compare_return_values": false,
+      "compare_arguments": false
+    },
+    "graph_building": {
+      "include_standard_lib": false,
+      "include_third_party": false,
+      "max_call_depth": null,
+      "collect_return_values": true,
+      "collect_execution_time": true
+    }
+  },
+  "module_graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {
+      "total_modules": 4,
+      "total_module_calls": 0
+    },
+    "nodes": [
+      {
+        "type": "module",
+        "id": "data"
+      },
+      {
+        "type": "module",
+        "id": "model"
+      },
+      {
+        "type": "module",
+        "id": "utils"
+      },
+      {
+        "type": "module",
+        "id": "prepare_vocab"
+      }
+    ],
+    "links": []
+  }
+}
