@@ -264,7 +264,7 @@ try:
 
 finally:
     tracer.stop_tracing()
-    output_dir = './output-graph/long_horizon'  # 单花括号
+    output_dir = './output-graph'  # 单花括号
     from datetime import datetime
     # 获取当前时间
     current_time = datetime.now()
@@ -272,5 +272,5 @@ finally:
     formatted_time = current_time.strftime("%Y_%m_%d_%H_%M")
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
-    output_file_path = output_dir + '/call_graph_temp_long_horizon' + formatted_time + '.json'
+    output_file_path = output_dir + '/call_graph_temp.json'
     tracer.save_graph(output_file_path)
