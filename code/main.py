@@ -262,15 +262,9 @@ try:
         else:
             test(args)
 
+except Exception as e:
+    print(f"An error occurred during execution: {str(e)}")
+    raise  
 finally:
     tracer.stop_tracing()
-    output_dir = './output-graph'  # 单花括号
-    from datetime import datetime
-    # 获取当前时间
-    current_time = datetime.now()
-    # 格式化为 "年_月_日_时_分"
-    formatted_time = current_time.strftime("%Y_%m_%d_%H_%M")
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
-    output_file_path = output_dir + '/call_graph_temp.json'
-    tracer.save_graph(output_file_path)
+    tracer.save_graph(f'/workspace/EMCGCN-ASTE/output-graph/call_graph_temp.json')
